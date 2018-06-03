@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Tapete" script="travel_tapete.lua" walkinterval="0" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="325" body="94" feet="94" head="94"  legs="94"  addons="3"/>
+<parameters>
+    <parameter key="module_travel" value="1"/>
+	<parameter key="message_greet" value="Olá |PLAYERNAME|. Segure firme para não cair do tapete, no momento temos os seguintes destinos: {Sunog}, {Hydra Camp} e {Carmelian}."/>
+	<parameter key="travel_destinations" value="sunog, x, y, z, 1000."/>
+	<parameter key="travel_destinations" value="hydra camp, x, y, z, 1000."/>
+	<parameter key="travel_destinations" value="carmelian, x, y, z, 1000."/>
+</parameters>
+</npc>
+<!--
+
+-º Adicionar x-y-z no travel_destinations.
+-º Escolher um look-type.
+-º Verificar o preço do transporte.
+
+-->

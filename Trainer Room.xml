@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Trainer Room" script="travel_trainer.lua" walkinterval="0" floorchange="0">
+	<look typeex="0000"/>
+	
+<parameters>
+    <parameter key="module_travel" value="1"/>
+	<parameter key="message_greet" value="Olá |PLAYERNAME|, no momento temos os seguintes modos de treinamento: {Training Room}."/>
+	<parameter key="travel_destinations" value="training room, x, y, z, 100."/>
+</parameters>
+</npc>
+<!--
+
+-º Adicionar x-y-z no travel_destinations.
+-º Escolher um look-type.
+-º Verificar o preço do transporte.
+
+-->

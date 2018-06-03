@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Captain Barbosa" script="travel_vip.lua" walkinterval="0" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="325" body="94" feet="94" head="94"  legs="94"  addons="3"/>
+<parameters>
+    <parameter key="module_travel" value="1"/>
+	<parameter key="message_greet" value="Olá |PLAYERNAME|. Seja bem vindo-a ao meu barco, no momento temos os seguintes destinos: {Carmelian} e {Frost Island}."/>
+	<parameter key="travel_destinations" value="carmelian, x, y, z, 1000."/>
+	<parameter key="travel_destinations" value="frost island, x, y, z, 1000."/>
+</parameters>
+</npc>
+<!--
+
+-º Adicionar x-y-z no travel_destinations.
+-º Escolher um look-type.
+-º Verificar o preço do transporte.
+
+-->
