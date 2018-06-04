@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Ring Seller" script="ring_seller.lua" walkinterval="2000" floorchange="0">
+	<health now="150" max="150"/>
+	<look type="133" head="78" body="69" legs="58" feet="76" addons="3""/>
+	<parameters>
+		<parameter key="module_shop" value="1"/>
+		<parameter key="message_greet" value="Ola |PLAYERNAME|. Eu vendo rings: {trade}"/>
+		<parameter key="shop_buyable" value="axe ring, 3092, 5000; club ring, 3093, 5000; dwarven ring, 3097, 5000; energy ring, 3051, 5000; life ring, 3052, 5000; might ring, 3048, 10000; power ring, 3050, 5000; ring of healing, 3098, 5000; stealth ring, 3091, 5000; sword ring, 3091, 5000; time ring, 3053, 5000;"/>
+	</parameters>
+</npc>
